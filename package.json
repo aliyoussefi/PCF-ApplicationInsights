@@ -1,0 +1,26 @@
+{
+  "name": "SimpleApplicationInsightsControl",
+  "version": "1.0.0",
+  "description": "Simple control to showcase using Application Insights.",
+  "keywords": [
+    "PCF ApplicationInsights",
+    "ali.youssefi@live.com"
+  ],
+  "main": "index.ts",
+  "author": "Ali Youssefi",
+  "scripts": {
+    "build": "pcf-scripts build",
+    "clean": "pcf-scripts clean",
+    "rebuild": "pcf-scripts rebuild",
+    "start": "pcf-scripts start"
+  },
+  "dependencies": {
+    "@microsoft/applicationinsights-web": "^2.5.6",
+    "@types/node": "^10.12.18",
+    "@types/powerapps-component-framework": "^1.2.0"
+  },
+  "devDependencies": {
+    "pcf-scripts": "^1",
+    "pcf-start": "^1"
+  }
+}
